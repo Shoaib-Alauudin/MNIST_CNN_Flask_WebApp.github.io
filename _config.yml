@@ -1,1 +1,41 @@
 theme: jekyll-theme-modernist
+authors:
+  - name: Shoaib Alauddin
+    email: shoaib.alaudin@gmail.com
+
+author: "Company or Individual Name Goes Here"
+
+# Any given open project site is assumed to be part of a hub,
+# and hub details in this format are required to let project site
+# reference the hub.
+parent_hub:
+  git_repo_url: https://github.com/Shoaib-Alauudin/MNIST_CNN_Flask_WebApp
+  home_url: https://github.com/Shoaib-Alauudin
+
+algolia_search:
+  api_key: '<your Algolia API key>'
+  index_name: '<your Algolia index name>'
+
+# Only add this if you want to use Algolia’s search on your project site.
+
+tag_namespaces:
+  software:
+    namespace_id: "Human-readable namespace name"
+    # E.g.:
+    # writtenin: "Written in"
+  specs:
+    namespace_id: "Human-readable namespace name"
+# NOTE: Tag namespaces must match corresponding hub site’s configuration entry.
+
+landing_priority: [custom_intro, blog, specs, software]
+# Which order should sections be displayed on landing.
+#
+# Default order: [software, specs, blog]
+# Depending on your project’s focus & pace of development you may want to change that.
+# Supported sections: featured_posts, featured_software, featured_specs, custom_intro.
+#
+# If you use custom_intro, project site must define an include "custom-intro.html".
+# The contents of that include will be wrapper in section.custom-intro tag.
+# Inside the include you’d likely want to have introductory summary wrapped
+# in section.summary, and possibly custom call-to-action buttons
+# (see Metanorma.com site for an example).
